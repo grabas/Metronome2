@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <container>
+        <div id="controls">
+          <p>Beats per Minute:</p>
+            <span style="display:flex">
+               <input type="number" value="90" id="bpm" min="1" max="400"><div class="tap"><small>tap</small></div>
+            </span>
+            <p>Time Signature:</p> <input type="number" value="4" id="bpme" min="2" max="50"> /
+            <select id="Note_Length" name="Note">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="16">16</option>
+                <option value="32">32</option>
+            </select>
+            <button class="start">START</button>
+            <button class="stop">STOP</button>
+        </div>
+        <small style="padding:15px">*click on a beat to toggle an accent, double click for a rest*</small>
+        <div class="visual">
+            <ul id="beatholder">
+                <li class="beat accent">
+                    <h1>1</h1>
+                </li>
+                <li class="beat">
+                    <h1>2</h1>
+                </li>
+                <li class="beat">
+                    <h1>3</h1>
+                </li>
+                <li class="beat">
+                    <h1>4</h1>
+                </li>
+            </ul>
+        </div>
+
+    </container>
+
+
+
+</body>
+</html>

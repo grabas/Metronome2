@@ -1,0 +1,71 @@
+
+
+body
+{
+    background-color: azure;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#controls
+{
+    height: auto;
+    padding: 15px;
+}
+
+.stop
+{
+    display: none;
+}
+
+.beat
+{
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b1b1b1;
+    color: white;
+    margin: 15px;
+    height: 40px;
+    float:left;
+}
+
+h1
+{
+    margin: 0;
+    -webkit-user-select: none;
+}
+
+.accent
+{
+    background-color: #467fcc;
+}
+
+#beatholder
+{
+    height: 80px;
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.visual
+{
+    width: 100vw;
+}
+
+.rest
+{
+    background-color: rgba(70, 127, 204, 0.24);
+}
+
+.tap
+{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  background-color: rgba(70, 127, 204, 0.24);
+  text-align: center;
+  -webkit-user-select: none;
+}
